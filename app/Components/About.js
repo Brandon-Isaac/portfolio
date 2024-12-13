@@ -15,21 +15,21 @@ const skillsList = [
 ];
 
 const detailOrQuote =
-  "The future belongs to those who embrace challenges as opportunities and persistently turn ideas into impactful solutions. It is through curiosity, creativity, and unwavering dedication that we shape a better world";
+  "The future belongs to those who embrace challenges as opportunities and persistently turn ideas into impactful solutions. ";
 
 const About = () => {
   return (
     <section className="padding" id="about">
       <Image className="background" src={image} alt={imageAltText} />
       <div
-       className="about"
+        className="about"
       >
         <h2>About Datch</h2>
         <p>{description}</p>
         <hr />
-       <h2>Skills</h2>
+        <h2>Skills</h2>
         <ul
-         className="skills"
+          className="skills"
         >
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
