@@ -6,7 +6,7 @@ import envelopeIcon from "../../public/envelope.svg";
 import gitHubIcon from "../../public/github.svg";
 import instagramIcon from "../../public/instagram.svg";
 import linkedInIcon from "../../public/linkedin.svg";
-import twitterIcon from "../../public/twitter.svg";
+import XIcon from "../../public/X.svg";
 
 const Footer = (props) => {
   const {
@@ -87,7 +87,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={twitterIcon} alt="Twitter" className="socialIcon" />
+            <Image src={XIcon} alt="X" className="socialIcon" />
           </a>
         )}
        

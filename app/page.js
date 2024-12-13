@@ -11,7 +11,7 @@ const siteProps = {
   gitHub: "Brandon-Isaac",
   instagram: "datch_err3r",
   linkedIn: "Isaac Datch",
-  twitter: "ISAAC BRANDON DATCH",
+  twitter: "@zeechey_datche",
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
