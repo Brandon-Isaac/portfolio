@@ -15,7 +15,7 @@ const skillsList = [
 ];
 
 const detailOrQuote =
-  "A passionate and driven Computer Science student with a strong foundation in software development. Eager to apply my skills to innovative projects, contribute to cutting-edge technologies, and pursue a challenging role in Web3, AI development, or full-stack engineering.";
+  "The future belongs to those who embrace challenges as opportunities and persistently turn ideas into impactful solutions. It is through curiosity, creativity, and unwavering dedication that we shape a better world";
 
 const About = () => {
   return (
