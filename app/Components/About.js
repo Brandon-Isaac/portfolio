@@ -32,6 +32,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+       <h2>Skills</h2>
         <ul
           style={{
             textAlign: "left",
