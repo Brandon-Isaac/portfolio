@@ -16,7 +16,7 @@ const projectList = [
   {
     title: "Vroom Vibe Dealership",
     description: "A React-based application for browsing, searching, and purchasing vehicles. It provides detailed car information, allows user accounts, and integrates a payment gateway.",
-    url: "https://github.com/Brandon-Isaac/Car-Dealership/tree/main/car_dealership",
+    url: "",
   },
   {
     title: "Instagram Profile Roaster",
@@ -27,7 +27,7 @@ const projectList = [
   title: "Fanya: A TODO app",
   description:
     "an Android application project designed to help users efficiently organize their tasks and improve productivity.",
-  url: "https://exp-communicate-usingnpm -markdown-cohort-1.github.io/series-communicate-using-markdown-Brandon-Isaac/",
+  url: "",
 },
 ];
 
