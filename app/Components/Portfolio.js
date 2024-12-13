@@ -1,5 +1,7 @@
 import image from "../../public/studying.jpg";
 import Image from "next/image";
+import "./Portfolio.css";
+
 const imageAltText = "student coding";
 const projectList = [
   {
@@ -34,10 +36,8 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div
-        style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}
-      >
+      <h2>Portfolio</h2>
+      <div className="portfolio">
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <Image
             src={image}

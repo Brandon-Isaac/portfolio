@@ -1,5 +1,6 @@
 import image from "../../public/matrix.jpg";
 import Image from "next/image";
+import "./About.css";
 
 const imageAltText = "matrix world background";
 const description =
@@ -21,26 +22,14 @@ const About = () => {
     <section className="padding" id="about">
       <Image className="background" src={image} alt={imageAltText} />
       <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
+       className="about"
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <p>{description}</p>
         <hr />
        <h2>Skills</h2>
         <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
+         className="skills"
         >
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>

@@ -2,20 +2,15 @@ import arrowSvg from "../../public/down-arrow.svg";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import image from "../../public/portfolio backgroud.png";
+import "./Homesection.css";
+
 const imageAltText = "Student going to school";
 
 const Homesection = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <Image className="background" src={image} alt="" />
-      <div
-        style={{
-          position: "absolute",
-          top: "5rem",
-          left: "2rem",
-          width: "17rem",
-        }}
-      >
+      <Image className="background" src={image} alt="" style={{ filter: "blur(6px) brightness(0.5)", }} />
+      <div className="title">
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
