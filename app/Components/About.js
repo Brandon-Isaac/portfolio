@@ -36,7 +36,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <i style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</i>
       </div>
     </section>
   );
