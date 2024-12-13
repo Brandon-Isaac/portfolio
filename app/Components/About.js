@@ -4,7 +4,7 @@ import "./About.css";
 
 const imageAltText = "matrix world background";
 const description =
-  "I'm a Computer Science student in Dedan Kimathi University of Technology. I enjoy creating unique and simplistic web applications with greater UX.";
+  "I'm a passionate and driven Computer Science student with a strong foundation in software development. Eager to apply my skills to innovative projects, contribute to cutting-edge technologies, and pursue a challenging role in Web3, AI development, or full-stack engineering.";
 
 const skillsList = [
   "Front-end web development",
@@ -24,7 +24,7 @@ const About = () => {
       <div
        className="about"
       >
-        <h2>About Myself</h2>
+        <h2>About Datch</h2>
         <p>{description}</p>
         <hr />
        <h2>Skills</h2>
