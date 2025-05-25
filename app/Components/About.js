@@ -8,6 +8,8 @@ const description =
 
 const skillsList = [
   "Front-end web development",
+  "Backend Development",
+  "DevOps",
   "Mobile Application Programming",
   "User experience",
   "Database Management",
