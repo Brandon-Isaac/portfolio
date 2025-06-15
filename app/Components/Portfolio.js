@@ -6,8 +6,8 @@ const imageAltText = "student coding";
 const projectList = [
   {
     title:"EmployBridge",
-    description:"A comprehensive AI-powered job matching platform that connects job seekers with employers through intelligent skill-based matching and career development tools."
-    url:"https://employ-bridge.vercel.app/"
+    description:"A comprehensive AI-powered job matching platform that connects job seekers with employers through intelligent skill-based matching and career development tools.",
+    url:"https://employ-bridge.vercel.app/",
 },
   {
     title: "Bursary Buddy ",
