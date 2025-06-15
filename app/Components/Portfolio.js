@@ -5,6 +5,11 @@ import "./Portfolio.css";
 const imageAltText = "student coding";
 const projectList = [
   {
+    title:"EmployBridge",
+    description:"A comprehensive AI-powered job matching platform that connects job seekers with employers through intelligent skill-based matching and career development tools."
+    url:"https://employ-bridge.vercel.app/"
+},
+  {
     title: "Bursary Buddy ",
     description: "an innovative AI-powered system designed to revolutionize the bursary allocation process by ensuring equitable and efficient distribution of financial aid to students in need",
     url: "",
