@@ -33,8 +33,8 @@ const projectList = [
   {
   title: "Fanya: A TODO app",
   description:
-    "an Android application project designed to help users efficiently organize their tasks and improve productivity.",
-  url: "",
+    "an Nextjs application designed to help users efficiently organize their tasks and improve productivity.",
+  url: "https://fanya-sigma.vercel.app/",
 },
 ];
 
