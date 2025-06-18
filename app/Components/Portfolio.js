@@ -12,10 +12,10 @@ const projectList = [
   {
     title: "Bursary Buddy ",
     description: "an innovative AI-powered system designed to revolutionize the bursary allocation process by ensuring equitable and efficient distribution of financial aid to students in need",
-    url: "",
+    url: "https://bursary-buddy-seven.vercel.app/",
   },
   {
-    title: "Campus Connect*",
+    title: "Campus Connect",
     description:
       "A platform designed to bridge the gap between university students and the industry.",
     url: "https://campus-connect-navy-six.vercel.app/",
