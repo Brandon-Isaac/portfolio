@@ -15,10 +15,10 @@ const projectList = [
     url: "",
   },
   {
-    title: "Building Bridges ",
+    title: "Campus Connect*",
     description:
       "A platform designed to bridge the gap between university students and the industry.",
-    url: "",
+    url: "https://campus-connect-navy-six.vercel.app/",
   },
   {
     title: "Vroom Vibe Dealership",
