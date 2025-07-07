@@ -10,7 +10,7 @@ const siteProps = {
   email: "isaacdutch472@gmail.com",
   gitHub: "Brandon-Isaac",
   instagram: "datch_err3r",
-  linkedIn: "isaac datch",
+  linkedIn: "isaac-datch-947067288",
   twitter: "@zeechey_datche",
 };
 const primaryColor = "#4E567E";
