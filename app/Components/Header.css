@@ -3,12 +3,46 @@
     display: flex;
     justify-content: center;
     gap: 2vw;
-    background: rgba(255,255,255,0.75);
-    padding: 1rem;
+    background: linear-gradient(135deg, rgba(15, 15, 15, 0.95) 0%, rgba(26, 26, 26, 0.92) 100%);
+    padding: 1rem 2rem;
     top: 0;
     width: 100%;
     z-index: 10;
+    border-bottom: 1px solid rgba(100, 181, 246, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
+
+.header a {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    padding: 0.5rem 1rem;
+}
+
+.header a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.header a:hover {
+    color: var(--accent-color);
+    text-shadow: 0 0 8px rgba(100, 181, 246, 0.4);
+}
+
+.header a:hover::after {
+    width: 80%;
+    left: 10%;
+}
+
 @media (max-width: 768px){
     .header{
         display: none;

@@ -6,7 +6,7 @@ import Portfolio from "./Components/Portfolio";
 
 const siteProps = {
   name: "Isaac Brandon Datch",
-  title: "Full-stack developer",
+  title: "Software developer",
   email: "isaacdutch472@gmail.com",
   gitHub: "Brandon-Isaac",
   instagram: "datch_err3r",

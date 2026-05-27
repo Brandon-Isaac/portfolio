@@ -1,40 +1,99 @@
 .about{
-    background-color: white;
+    background-color: var(--bg-secondary);
     width: 50%;
     padding: 5vh 5vw;
     margin: 10px auto;
     text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
   }
+
+.about:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 20px rgba(100, 181, 246, 0.2);
+}
+
   p{
     font-size: 20px;
-    line-height: 1.5;
-    color: rgb(58, 57, 57);
+    line-height: 1.6;
+    color: var(--text-secondary);
     font-weight: 300;
-    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
+
+.about h2 {
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+}
+
   .skills{
     text-align: left;
     columns: 2;
-    font-size: "1.25rem";
-    margin: "2rem 3rem";
-    gap: "3rem";
+    font-size: 1.1rem;
+    margin: 2rem 3rem;
+    gap: 3rem;
+    color: var(--text-secondary);
   }
+
+.skills li {
+    margin-bottom: 0.8rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.skills li:hover {
+    color: var(--accent-color);
+    text-shadow: 0 0 8px rgba(100, 181, 246, 0.3);
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.tech-badge {
+    background: linear-gradient(135deg, rgba(100, 181, 246, 0.15) 0%, rgba(100, 181, 246, 0.05) 100%);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.tech-badge:hover {
+    background: linear-gradient(135deg, rgba(100, 181, 246, 0.25) 0%, rgba(100, 181, 246, 0.1) 100%);
+    box-shadow: 0 4px 12px rgba(100, 181, 246, 0.3);
+    transform: translateY(-2px);
+}
   @media screen and (max-width: 768px){
     .about{
-      width: 80%;
-      padding: 10px;
+      width: 90%;
+      padding: 20px;
       margin: 0 auto;
     }
     .skills{
       columns: 1;
-      margin: 1rem;
+      margin: 1.5rem;
     }
     p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.5;
         font-weight: 300;
       }
 }
 hr {
-  margin: 8px;
+  margin: 1.5rem 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
 }

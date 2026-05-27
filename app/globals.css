@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+:root {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1a1a1a;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --accent-color: #64b5f6;
+  --accent-dark: #42a5f5;
+  --border-color: #333333;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -8,6 +20,9 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 div#main {
@@ -47,26 +62,31 @@ h1 {
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
+  color: var(--text-primary);
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
   padding-top: 1rem;
+  color: var(--accent-color);
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.25rem;
   margin: 0;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
 }
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0;
   font-weight: 300;
+  color: var(--text-secondary);
 }
 
 p.large {
@@ -86,16 +106,22 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: var(--accent-color);
+}
+
+li {
+  color: var(--text-secondary);
 }
 
 a {
-  color: black;
+  color: var(--accent-color);
   text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 a:hover {
-  color: #4e567e;
+  color: var(--accent-dark);
+  text-shadow: 0 0 8px rgba(100, 181, 246, 0.5);
 }
 
 .container {

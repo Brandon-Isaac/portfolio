@@ -21,19 +21,19 @@ const projectList = [
     url: "https://campus-connect-navy-six.vercel.app/",
   },
   {
-    title: "Vroom Vibe Dealership",
-    description: "A React-based application for browsing, searching, and purchasing vehicles. It provides detailed car information, allows user accounts, and integrates a payment gateway.",
-    url: "",
+    title: "Eco Alert",
+    description: "An environment conservation application that monitors where environmental cases have occurred and informs nearby users in real-time. Built with React Native and Expo for cross-platform mobile deployment.",
+    url: "https://ecolert.netlify.app/",
   },
   {
-    title: "Instagram Profile Roaster",
-    description: "Instagram Profile Roaster is a web application that generates humorous and lighthearted 'roasts' of Instagram profiles using OpenAI's GPT-3.5 model.",
-    url: "",
+    title: "Surgery Status",
+    description: "Real-time monitoring application for surgery schedules that keeps medical staff and patients informed with live updates. Built with Next.js for a robust and scalable solution.",
+    url: "https://v56-tier3-team-32main.vercel.app/",
   },
   {
   title: "Fanya: A TODO app",
   description:
-    "an Nextjs application designed to help users efficiently organize their tasks and improve productivity.",
+    "a Next.js application designed to help users efficiently organize their tasks and improve productivity.",
   url: "https://fanya-sigma.vercel.app/",
 },
 ];
@@ -43,13 +43,6 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2>Portfolio</h2>
       <div className="portfolio">
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <Image
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project,index) =>{
             console.log(project)

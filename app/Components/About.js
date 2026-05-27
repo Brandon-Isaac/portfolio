@@ -16,6 +16,8 @@ const skillsList = [
   "Graphics design",
 ];
 
+const techStack = ["React", "Next.js", "Node.js", "TypeScript", "Python", "MongoDB", "PostgreSQL", "AWS", "Docker", "Git"];
+
 const detailOrQuote =
   "The future belongs to those who embrace challenges as opportunities and persistently turn ideas into impactful solutions. ";
 
@@ -26,8 +28,6 @@ const About = () => {
       <div
         className="about"
       >
-        <h2>About Datch</h2>
-        <p>{description}</p>
         <hr />
         <h2>Skills</h2>
         <ul
@@ -37,6 +37,13 @@ const About = () => {
             <li key={skill}>{skill}</li>
           ))}
         </ul>
+        <hr />
+        <h2>Tech Stack</h2>
+        <div className="tech-stack">
+          {techStack.map((tech) => (
+            <span key={tech} className="tech-badge">{tech}</span>
+          ))}
+        </div>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}><i>{detailOrQuote}</i></p>
       </div>
