@@ -1,6 +1,5 @@
 "use client";
 
-import arrowSvg from "../../public/down-arrow.svg";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import image from "../../public/portfolio backgroud.png";
@@ -32,13 +31,6 @@ const Homesection = ({ name, title }) => {
             <button className="cta-secondary" onClick={scrollToContact}>Let's Work Together</button>
           </div>
         </div>
-      </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <Image
-          src={arrowSvg}
-          style={{ height: "3rem", width: "3rem" }}
-          alt={imageAltText}
-        />
       </div>
     </section>
   );

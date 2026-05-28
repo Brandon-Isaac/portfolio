@@ -9,7 +9,7 @@ const siteProps = {
   title: "Software developer",
   email: "isaacdutch472@gmail.com",
   gitHub: "Brandon-Isaac",
-  instagram: "datch_err3r",
+  instagram: "err_404nf",
   linkedIn: "isaac-datch-947067288",
   twitter: "@zeechey_datche",
 };
